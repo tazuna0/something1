@@ -1,0 +1,40 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-primary-200: #f3eed9;
+    --clr-primary-400: #824936;
+
+    --clr-neutral-100: #fff;
+    --clr-neutral-900: #222C2A;
+
+    --ff-primary: 'Roboto', sans-serif;
+    --ff-accent: 'Playfair Display', serif;
+}
+
+body, h1, h2, h3, p {
+    margin: 0;
+}
+
+body {
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    line-height: 1;
+    font-family: var(--ff-accent);
+    font-weight: 900;
+}
+
+.bg-light {background-color: var(--clr-primary-200);
+}
+.bg-primary {background-color: var(--clr-primary-400);
+}
+.bg-dark {background-color: var(--clr-neutral-900);
+}
